@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "3.4.0.2513"
+}
+sonarqube {
+    properties {
+        property "sonar.projectKey", "mono2"
+        property "sonar.organization", "shanefindley"
+    }
+}
